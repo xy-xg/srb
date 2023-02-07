@@ -7,17 +7,17 @@ import org.springframework.stereotype.Component;
 @Component
 public class OssProperties implements InitializingBean {
 
-    @Value("${aliyun.sms.endpoint}")
+    @Value("${aliyun.oss.endpoint}")
     private String endpoint;
 
-    @Value("${aliyun.sms.accessKeyId}")
+    @Value("${aliyun.oss.accessKeyId}")
     private String accessKeyId;
 
-    @Value("${aliyun.sms.secret}")
+    @Value("${aliyun.oss.secret}")
     private String secret;
 
 
-    @Value("${aliyun.sms.bucketName}")
+    @Value("${aliyun.oss.bucketName}")
     private String bucketName;
 
     public static String ENDPOINT;
