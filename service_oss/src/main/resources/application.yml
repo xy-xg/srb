@@ -13,6 +13,6 @@ spring:
 aliyun:
   oss:
     endpoint: oss-cn-beijing.aliyuncs.com
-    accessKeyId: LTAI5tQKPaBtNB6bUBhbpb7i
-    secret: S7n3nBzfdh8p7ia78BIBMNd3YielaH
+    accessKeyId: #
+    secret: #
     bucketName: srb-xja-file
