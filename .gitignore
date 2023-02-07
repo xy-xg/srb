@@ -1,0 +1,8 @@
+# Project exclude paths
+/common/target/
+/hfb/target/
+/service_base/target/
+/service_core/target/
+/service_gateway/target/
+/service_oss/target/
+/service_sms/target/
